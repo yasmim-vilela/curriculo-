@@ -1,0 +1,309 @@
+/*
+    Remove margens e espaçamentos padrões do navegador.
+    Isso ajuda a deixar o layout mais organizado.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    Estilização geral do corpo da página.
+    Aqui o aluno pode trocar a cor de fundo e a fonte.
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9eef5; /* Cor de fundo da página */
+    color: #333; /* Cor principal do texto */
+    line-height: 1.6;
+}
+
+/*
+    Caixa principal do currículo.
+    width: largura do currículo.
+    margin: centraliza na tela.
+    padding: espaço interno.
+*/
+.curriculo {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px; /* Arredonda as bordas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Sombra */
+}
+
+/*
+    Cabeçalho do currículo.
+    display flex coloca a imagem e o texto lado a lado.
+*/
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #1f4e79; /* Cor do cabeçalho */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*
+    Foto de perfil.
+    O aluno pode trocar tamanho, borda e formato.
+*/
+.foto {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    object-fit: cover; /* Ajusta a imagem sem deformar */
+    border: 4px solid white;
+}
+
+/* Nome do aluno */
+.cabecalho h1 {
+    font-size: 32px;
+}
+
+/* Texto abaixo do nome */
+.cabecalho p {
+    font/*
+    Remove margens e espaçamentos padrões do navegador.
+    Isso ajuda a deixar o layout mais organizado.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    Estilização geral do corpo da página.
+    Aqui o aluno pode trocar a cor de fundo e a fonte.
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9eef5; /* Cor de fundo da página */
+    color: #333; /* Cor principal do texto */
+    line-height: 1.6;
+}
+
+/*
+    Caixa principal do currículo.
+    width: largura do currículo.
+    margin: centraliza na tela.
+    padding: espaço interno.
+*/
+.curriculo {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px; /* Arredonda as bordas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Sombra */
+}
+
+/*
+    Cabeçalho do currículo.
+    display flex coloca a imagem e o texto lado a lado.
+*/
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #1f4e79; /* Cor do cabeçalho */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*
+    Foto de perfil.
+    O aluno pode trocar tamanho, borda e formato.
+*/
+.foto {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    object-fit: cover; /* Ajusta a imagem sem deformar */
+    border: 4px solid white;
+}
+
+/* Nome do aluno */
+.cabecalho h1 {
+    font-size: 32px;
+}
+
+/* Texto abaixo do nome */
+.cabecalho p {
+    font-size: 18px;
+}
+
+/*
+    Estilo de cada seção do currículo.
+    margin-top cria espaço entre uma seção e outra.
+*/
+.secao {
+    margin-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Títulos das seções */
+.secao h2 {
+    color: #1f4e79;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Parágrafos das seções */
+.secao p {
+    margin-bottom: 8px;
+}
+
+/* Listas */
+ul {
+    margin-left: 25px;
+}
+
+/* Itens da lista */
+li {
+    margin-bottom: 6px;
+}
+
+/*
+    Caixa dos projetos.
+    Pode ser usada para destacar experiências ou trabalhos escolares.
+*/
+.projeto {
+    background-color: #f2f6fa;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #1f4e79;
+    border-radius: 6px;
+}
+
+/* Título do projeto */
+.projeto h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 14px;
+}
+
+/*
+    Responsividade:
+    Quando a tela for pequena, o cabeçalho fica em coluna.
+*/
+@media (max-width: 700px) {
+    .curriculo {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecalho h1 {
+        font-size: 26px;
+    }
+
+    .foto {
+        width: 110px;
+        height: 110px;
+    }
+}-size: 18px;
+}
+
+/*
+    Estilo de cada seção do currículo.
+    margin-top cria espaço entre uma seção e outra.
+*/
+.secao {
+    margin-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Títulos das seções */
+.secao h2 {
+    color: #1f4e79;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Parágrafos das seções */
+.secao p {
+    margin-bottom: 8px;
+}
+
+/* Listas */
+ul {
+    margin-left: 25px;
+}
+
+/* Itens da lista */
+li {
+    margin-bottom: 6px;
+}
+
+/*
+    Caixa dos projetos.
+    Pode ser usada para destacar experiências ou trabalhos escolares.
+*/
+.projeto {
+    background-color: #f2f6fa;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #1f4e79;
+    border-radius: 6px;
+}
+
+/* Título do projeto */
+.projeto h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 14px;
+}
+
+/*
+    Responsividade:
+    Quando a tela for pequena, o cabeçalho fica em coluna.
+*/
+@media (max-width: 700px) {
+    .curriculo {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecalho h1 {
+        font-size: 26px;
+    }
+
+    .foto {
+        width: 110px;
+        height: 110px;
+    }
+}
